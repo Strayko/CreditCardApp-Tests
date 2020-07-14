@@ -26,6 +26,8 @@ namespace CreditCardApplications
             throw new NotImplementedException("Simulate this real dependency being hard to use");
         }
 
+        public event EventHandler ValidatorLookupPerformed;
+
         //public string LisenceKey
         //{
         //    get
